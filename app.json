@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "老板语言翻译器",
+    "navigationBarBackgroundColor": "#F5F4EF",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F5F4EF",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
