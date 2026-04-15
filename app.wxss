@@ -1,0 +1,65 @@
+page {
+  --bg: #f5f4ef;
+  --surface: #ffffff;
+  --surface-muted: #f4f6f8;
+  --ink: #17191d;
+  --subtle: #68707d;
+  --line: rgba(23, 25, 29, 0.1);
+  --primary: #1e55d6;
+  --primary-deep: #1847b3;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "PingFang SC", "Helvetica Neue", sans-serif;
+  min-height: 100%;
+}
+
+.page-shell {
+  min-height: 100vh;
+  padding: 28rpx 28rpx 44rpx;
+  box-sizing: border-box;
+}
+
+.surface {
+  background: var(--surface);
+  border: 1rpx solid var(--line);
+  border-radius: 28rpx;
+}
+
+.btn-primary,
+.btn-secondary,
+.link-button {
+  line-height: 1.4;
+}
+
+.btn-primary::after,
+.btn-secondary::after,
+.link-button::after {
+  border: none;
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 24rpx;
+  background: var(--primary);
+  color: #ffffff;
+  font-size: 30rpx;
+  font-weight: 700;
+}
+
+.btn-secondary {
+  border-radius: 24rpx;
+  border: 1rpx solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+.link-button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--primary-deep);
+  font-size: 25rpx;
+  font-weight: 600;
+}
